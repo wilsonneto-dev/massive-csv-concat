@@ -47,7 +47,7 @@ class CsvUtils
                     {
 
                         $line = $buffer;
-                        $line = trim($buffer);
+                        $line = trim($line);
                         
                         if(empty($line))
                             continue;
