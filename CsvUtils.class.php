@@ -89,8 +89,6 @@ class CsvUtils
                     throw new \Exception("Input file doesn't exist.");
                 }    
 
-                $report["inputs"][] = $report_input_item;
-
             } 
             catch (\Exception $ex) 
             {
@@ -100,6 +98,7 @@ class CsvUtils
             finally 
             {
                 @fclose($f_handle_input);
+                $report["inputs"][] = $report_input_item;
             }
 
         }

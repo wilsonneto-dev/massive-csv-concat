@@ -9,11 +9,11 @@ $time_init = microtime(true);
 // tnhe csv concatenation
 $result = Workana\Utils\CsvUtils::_concat(
     [
-        "csv\\input1.txt",
-        "csv\\input2.txt",
-        "csv\\input3.txt",
-        "csv\\full1.csv",
-        "csv\\full1.csv"
+        "csv/input1.txt",
+        "csv/input2.txt",
+        "csv/input3.txt",
+        "csv/full1.csv",
+        "csv/full1.csv"
     ],
     "csv/output.txt"
 );
